@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ -e "/home/pi/webfan.txt" ]; then
-echo "uuparupa" | sudo -S python3 /home/pi/FAN.py
+echo "hoge" | sudo -S python3 /home/pi/FAN.py
 else
-echo "uuparupa" | sudo -S python3 /home/pi/FANOFF.py
+echo "hoge" | sudo -S python3 /home/pi/FANOFF.py
 fi
