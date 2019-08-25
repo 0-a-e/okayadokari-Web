@@ -5,7 +5,7 @@
 ```
 crontab -e 
 ```
-下を追記
+して下を追記します。
 ```
 # m h  dom mon dow   command
 * * * * * for i in `seq 0 10 59`;do (sleep ${i} ; /home/pi/send.sh prm1 prm2) & done; 
