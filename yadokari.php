@@ -7,7 +7,7 @@ $file = '/home/pi/webfan.txt';
 chmod( $file, 0777 );
 if(!empty($pass)) {
 
-if($pass == "uuparupa555"){
+if($pass == "hoge"){
 
 if($on == "on"){
 
