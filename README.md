@@ -14,3 +14,4 @@ crontab -e
 30 * * * * python3 /home/pi/wter.py
 
 ```
+ardu.pyはサービス化してください。
