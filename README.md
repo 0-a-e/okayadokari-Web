@@ -15,3 +15,9 @@ crontab -e
 
 ```
 ardu.pyはサービス化してください。
+
+#環境（随時追記）
+- ラズパイ3B raspbian
+- arduino UNO
+- ラズパイとarduinoはUSB接続済み
+- apache2 ディレクトリは/var/www/html
